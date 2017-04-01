@@ -49,4 +49,18 @@ public class ElementTest {
                 "\n</body>";
         assertEquals(expected,index.render());
     }
+
+    @Test
+    public void ShouldBeAbleToAppendOneTagInsideAnother(){
+        Element index = new Element("html");
+        Element index_body = new Element("body");
+        String expected ="<!DOCTYPE html>" +
+                "\n<html>"+
+                "\n<body>"+
+                "\n</body>"+
+                "\n</html>";
+        index.append(index_body);
+        assertEquals(expected,index.render());
+
+    }
 }

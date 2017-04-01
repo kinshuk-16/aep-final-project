@@ -22,12 +22,18 @@ public class Element {
         this.content += "\n"+ content;
     }
 
+    public void append(Element innerElement){
+        this.content += innerElement.openTag();
+    }
+
+    private String openTag(){
+        return "\n<"+this.tag +">" + this.content + "\n</"+this.tag +">";
+    }
+
     public String render(){
         String result = "";
         result += "<!DOCTYPE html>";
-        result +=  "\n<"+this.tag +">";
-        result +=  this.content;
-        result +=  "\n</"+this.tag +">";
+        result +=  openTag();
         return result;
     }
 }
