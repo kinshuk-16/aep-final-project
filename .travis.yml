@@ -1,0 +1,6 @@
+anguage: java
+jdk:
+  - oraclejdk8
+notifications:
+  email:
+    - kinshuk163@gmail.com

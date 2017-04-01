@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d06f58c-775c-48e4-a3ad-2bb1614d1bf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalProject.iml" afterPath="$PROJECT_DIR$/finalProject.iml" />
-    </list>
+    <list default="true" id="9d06f58c-775c-48e4-a3ad-2bb1614d1bf0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
