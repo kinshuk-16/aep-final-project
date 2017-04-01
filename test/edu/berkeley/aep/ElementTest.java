@@ -26,4 +26,14 @@ public class ElementTest {
                 "\n</body>";
         assertEquals(expected,index.render());
     }
+    @Test
+    public void BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend(){
+        Element index = new Element("body");
+        index.append("");
+        String expected ="<!DOCTYPE html>" +
+                "\n<body>"+
+                "\n"+
+                "\n</body>";
+        assertEquals(expected,index.render());
+    }
 }

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d06f58c-775c-48e4-a3ad-2bb1614d1bf0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/aep/Element.class" afterPath="$PROJECT_DIR$/target/classes/edu/berkeley/aep/Element.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/berkeley/aep/ElementTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/berkeley/aep/ElementTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/finalProject/edu/berkeley/aep/Element.class" afterPath="$PROJECT_DIR$/out/production/finalProject/edu/berkeley/aep/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/finalProject/edu/berkeley/aep/ElementTest.class" afterPath="$PROJECT_DIR$/out/test/finalProject/edu/berkeley/aep/ElementTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Element.java" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Element.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/reports/TEST-edu.berkeley.aep.ElementTest.txt" afterPath="$PROJECT_DIR$/target/reports/TEST-edu.berkeley.aep.ElementTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,9 +25,12 @@
       <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +38,8 @@
       <file leaf-file-name="ElementTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,33 +128,7 @@
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween">
-    <configuration default="false" name="ElementTest.sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="finalProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
-      <option name="METHOD_NAME" value="sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend">
     <configuration default="false" name="ElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -167,32 +143,6 @@
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ElementTest.callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="finalProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
-      <option name="METHOD_NAME" value="callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -244,6 +194,58 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
       <option name="METHOD_NAME" value="BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ElementTest.BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="finalProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
+      <option name="METHOD_NAME" value="BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="finalProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
+      <option name="METHOD_NAME" value="BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -462,19 +464,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -492,8 +494,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElementTest - 2017.04.01 at 14h 51m 14s.xml">
-      <configuration name="ElementTest" configurationId="JUnit" />
+    <history-entry file="ElementTest_BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend - 2017.04.01 at 15h 47m 18s.xml">
+      <configuration name="ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementTest_BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend - 2017.04.01 at 15h 44m 31s.xml">
+      <configuration name="ElementTest.BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementTest_BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend - 2017.04.01 at 15h 45m 27s.xml">
+      <configuration name="ElementTest.BodyTagWithNoContentShouldAppendSampleTextToItOnCallingAppend" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ElementTest_BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween - 2017.04.01 at 15h 34m 59s.xml">
       <configuration name="ElementTest.BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween" configurationId="JUnit" />
@@ -513,12 +521,6 @@
     <history-entry file="ElementTest_EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween - 2017.04.01 at 15h 37m 43s.xml">
       <configuration name="ElementTest.EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementTest_callingRenderOnElementWillReturnDoctypeTagAndEmptyTags - 2017.04.01 at 13h 50m 55s.xml">
-      <configuration name="ElementTest.callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElementTest_callingRenderOnElementWillReturnDoctypeTagAndEmptyTags - 2017.04.01 at 13h 52m 09s.xml">
-      <configuration name="ElementTest.callingRenderOnElementWillReturnDoctypeTagAndEmptyTags" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ElementTest_sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag - 2017.04.01 at 13h 41m 37s.xml">
       <configuration name="ElementTest.sampleTextAppendedToElementShouldBeDoctypeTagOpeningTagSampleTextAndClosingTag" configurationId="JUnit" />
     </history-entry>
@@ -530,7 +532,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -575,7 +577,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,16 +625,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="345">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
