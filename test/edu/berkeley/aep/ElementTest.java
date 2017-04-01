@@ -9,10 +9,12 @@ import static junit.framework.TestCase.assertEquals;
  */
 public class ElementTest {
     @Test
-    public void callingRenderOnElementWillReturnDoctypeTagAndNullTags(){
-        Element index = new Element();
-        String expected = "<!DOCTYPE html>\n" +
-                            "<null>null</null>";
-        assertEquals(expected, index.render());
+    public void EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween(){
+        Element index = new Element("","");
+        String expected ="<!DOCTYPE html>\n" +
+                "<>"+
+                "\n"+
+                "</>";
+        assertEquals(expected,index.render());
     }
 }
