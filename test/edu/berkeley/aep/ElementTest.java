@@ -17,6 +17,7 @@ public class ElementTest {
                 "\n</>";
         assertEquals(expected,index.render());
     }
+
     @Test
     public void BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween(){
         Element index = new Element("Sample","body");
@@ -26,6 +27,7 @@ public class ElementTest {
                 "\n</body>";
         assertEquals(expected,index.render());
     }
+
     @Test
     public void BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend(){
         Element index = new Element("body");
@@ -33,6 +35,17 @@ public class ElementTest {
         String expected ="<!DOCTYPE html>" +
                 "\n<body>"+
                 "\n"+
+                "\n</body>";
+        assertEquals(expected,index.render());
+    }
+
+    @Test
+    public void BodyTagWithNoContentShouldAppendSampleContentToItOnCallingAppendWithSampleContent(){
+        Element index = new Element("body");
+        index.append("Sample Content");
+        String expected ="<!DOCTYPE html>" +
+                "\n<body>"+
+                "\nSample Content"+
                 "\n</body>";
         assertEquals(expected,index.render());
     }
