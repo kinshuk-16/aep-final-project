@@ -51,7 +51,7 @@ public class ElementTest {
     }
 
     @Test
-    public void ShouldBeAbleToAppendOneTagInsideAnother(){
+    public void ShouldBeAbleToAppendBodyTagInsideHtmlTag(){
         Element index = new Element("html");
         Element index_body = new Element("body");
         String expected ="<!DOCTYPE html>" +
@@ -61,6 +61,24 @@ public class ElementTest {
                 "\n</html>";
         index.append(index_body);
         assertEquals(expected,index.render());
+    }
 
+    @Test
+    public void ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag(){
+        Element index = new Element("html");
+        Element index_body = new Element("body");
+        Element index_head = new Element("head");
+        index_body.append("Sample Content");
+        index.append(index_head);
+        index.append(index_body);
+        String expected ="<!DOCTYPE html>" +
+                "\n<html>"+
+                "\n<head>"+
+                "\n</head>"+
+                "\n<body>"+
+                "\nSample Content"+
+                "\n</body>"+
+                "\n</html>";
+        assertEquals(expected,index.render());
     }
 }
