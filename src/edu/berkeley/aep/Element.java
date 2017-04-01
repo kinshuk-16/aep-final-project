@@ -15,10 +15,10 @@ public class Element {
 
     public String render(){
         String result = "";
-        result += "<!DOCTYPE html>\n";
-        result +=  "<"+this.tag +">";
+        result += "<!DOCTYPE html>";
+        result +=  "\n<"+this.tag +">";
         result +=  this.content;
-        result +=  "</"+this.tag +">";
+        result +=  "\n</"+this.tag +">";
         return result;
     }
 }
