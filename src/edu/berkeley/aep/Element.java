@@ -57,6 +57,10 @@ public class Element {
         this.content += innerElement.openTag();
     }
 
+    public void append(List<Map<String, String>> attributes) {
+        this.attributes = addAttributes(attributes);
+    }
+
     private String openTag(){
         return "\n<"+this.tag + this.attributes +">" + this.content + "\n</"+this.tag +">";
     }
@@ -67,4 +71,6 @@ public class Element {
         result +=  openTag();
         return result;
     }
+
+
 }

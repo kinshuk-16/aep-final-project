@@ -112,4 +112,19 @@ public class ElementTest {
         assertEquals(expected,anchor.render());
 
     }
+
+    @Test
+    public void ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag(){
+        List<Map<String,String>> attributes = new ArrayList<Map<String,String>>();
+        Map <String, String> href = Collections.singletonMap("href","home");
+        attributes.add(href);
+        Element anchor = new Element("a");
+        anchor.append("Go To Home Page");
+        anchor.append(attributes);
+        String expected = "<!DOCTYPE html>" +
+                "\n<a href=\"home\">"+
+                "\nGo To Home Page"+
+                "\n</a>";
+        assertEquals(expected,anchor.render());
+    }
 }
