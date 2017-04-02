@@ -2,6 +2,8 @@ package edu.berkeley.aep;
 
 import org.junit.Test;
 
+import java.util.*;
+
 import static junit.framework.TestCase.assertEquals;
 
 /**
@@ -80,5 +82,20 @@ public class ElementTest {
                 "\n</body>"+
                 "\n</html>";
         assertEquals(expected,index.render());
+    }
+
+    @Test
+    public void ShouldBeAbleToAddAttributeHrefAndValueHomeToTag(){
+        List<Map<String,String>> attributes = new ArrayList<Map<String,String>>();
+        Map <String, String> href = Collections.singletonMap("href","home");
+        attributes.add(href);
+        Element anchor = new Element("a",attributes);
+        anchor.append("Go To Home Page");
+        String expected = "<!DOCTYPE html>" +
+                "\n<a href=\"home\">"+
+                "\nGo To Home Page"+
+                "\n</a>";
+        assertEquals(expected,anchor.render());
+
     }
 }

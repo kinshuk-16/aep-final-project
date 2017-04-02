@@ -1,21 +1,40 @@
 package edu.berkeley.aep;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Created by kinshuksinha on 4/1/17.
  */
 //Understands a general HTML element of form <name> text </name>
 public class Element {
-    private final String tag;
+    private String tag;
+    private String attributes;
     private String content;
-
-    public Element(String content, String tag){
-        this.tag = tag;
-        this.content = "\n" + content;
-    }
 
     public Element(String tag){
         this.tag = tag;
         this.content = "";
+        this.attributes ="";
+    }
+
+    public Element(String content, String tag){
+        this.tag = tag;
+        this.attributes ="";
+        this.content = "\n" + content;
+    }
+
+    public Element(String tag, List<Map<String, String>> attributes){
+        this.tag = tag;
+        this.content = "";
+        this.attributes =" ";
+        Iterator<Map<String, String>> attrIterator = attributes.iterator();
+        while(attrIterator.hasNext()){
+            Map <String, String> attr = attrIterator.next();
+            this.attributes += attr.keySet().toArray()[0] + "=\"" + attr.get(attr.keySet().toArray()[0]) +"\"";
+        }
+
     }
 
     public void append(String content){
@@ -27,7 +46,7 @@ public class Element {
     }
 
     private String openTag(){
-        return "\n<"+this.tag +">" + this.content + "\n</"+this.tag +">";
+        return "\n<"+this.tag + this.attributes +">" + this.content + "\n</"+this.tag +">";
     }
 
     public String render(){
