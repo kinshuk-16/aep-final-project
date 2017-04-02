@@ -28,13 +28,25 @@ public class Element {
     public Element(String tag, List<Map<String, String>> attributes){
         this.tag = tag;
         this.content = "";
-        this.attributes =" ";
+        this.attributes =addAttributes(attributes);
+
+    }
+
+    public Element(String content, String tag, List<Map<String, String>> attributes ){
+        this.tag = tag;
+        this.attributes = addAttributes(attributes);
+        this.content = "\n" + content;
+
+    }
+
+    private String addAttributes(List<Map<String, String>> attributes){
+        String attributeString = " ";
         Iterator<Map<String, String>> attrIterator = attributes.iterator();
         while(attrIterator.hasNext()){
             Map <String, String> attr = attrIterator.next();
-            this.attributes += attr.keySet().toArray()[0] + "=\"" + attr.get(attr.keySet().toArray()[0]) +"\"";
+            attributeString += attr.keySet().toArray()[0] + "=\"" + attr.get(attr.keySet().toArray()[0]) +"\"";
         }
-
+        return attributeString;
     }
 
     public void append(String content){
