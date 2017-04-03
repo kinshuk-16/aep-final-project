@@ -135,6 +135,15 @@ public class ElementTest {
         assertEquals(expected,br.render());
 
     }
-    // write test for self closing tag. Set a flag in constructor. Only constructor with tag can be used, raise exception if othr constructor
-    // called with flag true(more tests for this). Different implementation for open tag. 4 tests (1 for each constructor - 1 calls open tag, 3 raises exception)
+    @Test
+    public void shouldBeAbleToCreateAndRenderImgTagWithSrcAttribute(){
+        Element img = new Element("img",true);
+        List<Map<String,String>> attributes = new ArrayList<Map<String,String>>();
+        Map <String, String> src = Collections.singletonMap("src","cat.gif");
+        attributes.add(src);
+        img.append(attributes);
+        String expected = "<!DOCTYPE html>" +
+                "\n<img src=\"cat.gif\"/>";
+        assertEquals(expected,img.render());
+    }
 }
