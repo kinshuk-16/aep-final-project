@@ -127,4 +127,14 @@ public class ElementTest {
                 "\n</a>";
         assertEquals(expected,anchor.render());
     }
+    @Test
+    public void shouldBeAbleToCreateAndRenderVoidTagBr(){
+        Element br = new Element("br",true);
+        String expected = "<!DOCTYPE html>" +
+                "\n<br/>";
+        assertEquals(expected,br.render());
+
+    }
+    // write test for self closing tag. Set a flag in constructor. Only constructor with tag can be used, raise exception if othr constructor
+    // called with flag true(more tests for this). Different implementation for open tag. 4 tests (1 for each constructor - 1 calls open tag, 3 raises exception)
 }

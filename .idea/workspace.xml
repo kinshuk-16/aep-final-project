@@ -22,14 +22,12 @@
       <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+            <state relative-caret-position="379">
+              <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1859#1860#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="e#2023#2024#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="127" column="47" lean-forward="false" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+              <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,33 +126,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ElementTest.ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag">
-    <configuration default="false" name="ElementTest.ShouldBeAbleToAppendBodyTagInsideHtmlTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="finalProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
-      <option name="METHOD_NAME" value="ShouldBeAbleToAppendBodyTagInsideHtmlTag" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ElementTest.shouldBeAbleToCreateAndRenderVoidTagBr">
     <configuration default="false" name="ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -246,6 +218,32 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
       <option name="METHOD_NAME" value="ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ElementTest.shouldBeAbleToCreateAndRenderVoidTagBr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="finalProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ElementTest" />
+      <option name="METHOD_NAME" value="shouldBeAbleToCreateAndRenderVoidTagBr" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -464,19 +462,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagInsideHtmlTag" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTag" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTagAndContent" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTag" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTagAndContent" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.shouldBeAbleToCreateAndRenderVoidTagBr" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTagAndContent" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTag" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagInsideHtmlTag" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementTest.shouldBeAbleToCreateAndRenderVoidTagBr" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTagAndContent" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAddAttributeHrefAndValueHomeToTag" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" />
       </list>
     </recent_temporary>
   </component>
@@ -494,9 +492,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElementTest_BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend - 2017.04.01 at 21h 52m 22s.xml">
-      <configuration name="ElementTest.BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ElementTest_BodyTagWithNoContentShouldAppendSampleContentToItOnCallingAppendWithSampleContent - 2017.04.01 at 21h 52m 27s.xml">
       <configuration name="ElementTest.BodyTagWithNoContentShouldAppendSampleContentToItOnCallingAppendWithSampleContent" configurationId="JUnit" />
     </history-entry>
@@ -523,6 +518,9 @@
     </history-entry>
     <history-entry file="ElementTest_ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag - 2017.04.01 at 21h 52m 36s.xml">
       <configuration name="ElementTest.ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementTest_shouldBeAbleToCreateAndRenderVoidTagBr - 2017.04.02 at 20h 34m 42s.xml">
+      <configuration name="ElementTest.shouldBeAbleToCreateAndRenderVoidTagBr" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -579,10 +577,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,10 +599,8 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,14 +646,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="379">
+          <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,7 +659,7 @@
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="127" column="47" lean-forward="false" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+          <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,7 +9,8 @@ import java.util.Map;
  */
 //Understands a general HTML element of form <name> text </name>
 public class Element {
-    private String tag;
+    private final boolean isVoid;
+    private final String tag;
     private String attributes;
     private String content;
 
@@ -17,18 +18,27 @@ public class Element {
         this.tag = tag;
         this.content = "";
         this.attributes ="";
+        this.isVoid = false;
+    }
+
+    public Element(String tag, boolean isVoid) {
+        this.tag = tag;
+        this.attributes ="";
+        this.isVoid = true;
     }
 
     public Element(String content, String tag){
         this.tag = tag;
         this.attributes ="";
         this.content = "\n" + content;
+        this.isVoid = false;
     }
 
     public Element(String tag, List<Map<String, String>> attributes){
         this.tag = tag;
         this.content = "";
         this.attributes =addAttributes(attributes);
+        this.isVoid = false;
 
     }
 
@@ -36,6 +46,7 @@ public class Element {
         this.tag = tag;
         this.attributes = addAttributes(attributes);
         this.content = "\n" + content;
+        this.isVoid = false;
 
     }
 
@@ -62,7 +73,11 @@ public class Element {
     }
 
     private String openTag(){
+        if(this.isVoid){
+            return "\n<"+this.tag + this.attributes + "/>";
+        }
         return "\n<"+this.tag + this.attributes +">" + this.content + "\n</"+this.tag +">";
+
     }
 
     public String render(){
