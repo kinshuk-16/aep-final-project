@@ -1,4 +1,14 @@
 Testsuite: edu.berkeley.aep.ElementTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
 
-Testcase: EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween took 0.002 sec
+Testcase: ShouldBeAbleToAddAttributeHrefAndValueHomeToTagAndContent took 0.007 sec
+Testcase: BodyTagWithSampleContentShouldStartWithDocTypeAndThenHavebodyTagsWithSampleContentInBetween took 0 sec
+Testcase: BodyTagWithNoContentShouldAppendNewLineToItOnCallingAppend took 0 sec
+Testcase: ShouldBeAbleToAppendAttributeHrefAndValueHomeToAnchorTag took 0.001 sec
+Testcase: shouldBeAbleToCreateAndRenderImgTagWithSrcAttribute took 0 sec
+Testcase: ShouldBeAbleToAppendBodyTagInsideHtmlTag took 0 sec
+Testcase: ShouldBeAbleToAddAttributeHrefAndValueHomeToTag took 0 sec
+Testcase: EmptyTagNameWithEmptyContentShouldStartWithDocTypeAndThenHaveEmptyTagsWithNewLineInBetween took 0 sec
+Testcase: ShouldBeAbleToAppendBodyTagWithSampleContentAndHeadTagIndideHtmlTag took 0 sec
+Testcase: shouldBeAbleToCreateAndRenderVoidTagBr took 0 sec
+Testcase: BodyTagWithNoContentShouldAppendSampleContentToItOnCallingAppendWithSampleContent took 0 sec

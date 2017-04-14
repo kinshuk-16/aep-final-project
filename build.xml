@@ -32,10 +32,11 @@
   </target>
 
   <target name="test" depends="compile, compile-tests">
-    <junit failureproperty="test.failure" >
+    <junit failureproperty="test.failure" printsummary="on">
       <classpath refid="test.classpath"/>
       <batchtest todir="target/reports">
-        <fileset dir="target/test-classes" includes="**/*Test.class" />
+        <!--<fileset dir="target/test-classes" includes="**/*Test.class" />-->
+        <fileset dir="target/test-classes" includes="**/*Test*" />
         <formatter type="plain"/>
       </batchtest>
     </junit>
